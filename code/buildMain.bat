@@ -1,3 +1,3 @@
-gcc src/main.c src/input.c src/setup.c -Wall -o ../Build/main.exe
+gcc src/main.c src/input.c src/setup.c -Wall -g -o  ../Build/main.exe
 
 pause

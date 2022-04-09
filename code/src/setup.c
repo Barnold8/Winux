@@ -10,21 +10,15 @@ void setName(char** user){
         token = strtok(NULL, "\\");
         
     }
-    
+
     *user = name;
 }
 
-void setPCName(){
-
-}
-
-void setup(char** user,char**PCNAME){
+void setup(char** user){
     setName(user);
-
 }
 
-void setInput(char** input,char** name){
-    // printf("%s%s",*name);
-    // system("pause");
-
+void printName(char** name){
+    printf("%s%s",*name,"@windows:~$ ");
+    
 }
