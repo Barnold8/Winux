@@ -1,4 +1,3 @@
-
 #include "INCLUDES.H"
 
-std::string getName();
+int mainLoop();
