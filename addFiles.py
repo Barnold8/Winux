@@ -18,8 +18,6 @@ for n in files:
 
 strings[1] += "-o Build/main.exe \n"
 
-print(strings[1])
-
 try:
     os.remove("buildMain.bat")
 except Exception as IOError:
